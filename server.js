@@ -11,6 +11,7 @@ app.use(express.static('styles'));
 app.get('/', function (req, res) {
   res.render('index.html');
 });
+//testes
 
 //start a server on port 80 and log its start to our console
 var server = app.listen(3000, function () {
